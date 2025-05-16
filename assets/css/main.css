@@ -6632,6 +6632,18 @@ input.main-search-input::placeholder {
   .hero-3 .hero-image .mobile-image {
     max-width: 100px;
   }
+
+    .hero-3 .hero-content .btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hero-3 .hero-content .btn-wrapper > * {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media (max-width: 1199px) {
