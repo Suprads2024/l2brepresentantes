@@ -140,7 +140,7 @@ Description: Niotech - App Landing HTML Template <
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
 body {
- font-family: 'Eurostile';
+ font-family: 'Eurostile'!important;
   font-size: 16px;
   font-weight: normal;
   line-height: 28px;
@@ -5813,7 +5813,7 @@ input.main-search-input::placeholder {
 .hero-3 .hero-content h1 {
    font-family: 'Eurostile-Bold';
    color: #fff;
-  font-size: 65px;
+  font-size: 55px;
   font-weight: 700;
   letter-spacing: -1.6px;
   line-height: 105%;
@@ -5821,7 +5821,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 1199px) {
   .hero-3 .hero-content h1 {
-    font-size: 65px;
+    font-size: 55px;
   }
 }
 @media (max-width: 991px) {
