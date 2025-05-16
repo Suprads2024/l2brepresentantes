@@ -178,7 +178,7 @@ h3,
 h4,
 h5,
 h6 {
- font-family: 'Eurostile';
+  font-family: 'Eurostile-Bold'!important;
   margin: 0px;
   padding: 0;
   color: var(--title);
@@ -492,7 +492,7 @@ input[type=radio]:checked ~ label::before {
     # Buttons style here
 ----------------------------------------------*/
 .theme-btn {
-   font-family: 'Eurostile';
+  font-family: 'Eurostile-Medium';
   display: inline-block;
   position: relative;
   padding: 20px 36px;
@@ -5806,7 +5806,7 @@ input.main-search-input::placeholder {
   }
 }
 .hero-3 .hero-content h6 {
-  font-family: 'Eurostile';
+ font-family: 'Eurostile-Bold';
   font-size: 20px;
   font-weight: 600;
   letter-spacing: -0.4px;
@@ -5853,7 +5853,7 @@ input.main-search-input::placeholder {
   color: var(--theme);
 }
 .hero-3 .hero-content p {
-   font-family: 'Eurostile';
+   font-family: 'Eurostile-Regular';
   font-weight: 500;
   max-width: 760px;
   font-size: 25px;
