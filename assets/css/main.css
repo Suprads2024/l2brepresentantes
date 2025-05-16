@@ -5995,7 +5995,7 @@ input.main-search-input::placeholder {
   .footer {
     margin-top: -30px;
     position: relative;
-    background-image: url('../images/l2b/footermovil.jpg');
+    background-image: url('../images/l2b/footermovil.jpg')!important;
     background-position: center;
     /* Centra la imagen */
     background-repeat: no-repeat;
@@ -6005,9 +6005,7 @@ input.main-search-input::placeholder {
     color: white;
   }
 
-  .footer {
-    background-position: center;
-  }
+ 
 
   .footer-container {
     margin-top: 20px;
@@ -7458,7 +7456,7 @@ input.main-search-input::placeholder {
 
 .counter-box.style1 .text {
   color: var(--white);
-
+  font-family: 'Eurostile-Medium';
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -11369,9 +11367,9 @@ textarea.is-invalid {
 
 /* Estilo para resaltar la palabra "controlador" */
 .highlighted-word {
-  background-color: #000;
+ font-family: 'Eurostile-Heavy';
   /* Fondo negro */
-  color: #fff;
+  color: #000000;
   /* Texto blanco */
   padding: 0 5px;
   /* Espaciado alrededor de la palabra */
