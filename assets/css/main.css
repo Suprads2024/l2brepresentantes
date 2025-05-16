@@ -260,6 +260,7 @@ p {
 }
 
 span {
+    font-family: 'Eurostile-Medium';
   margin: 0px;
   transition: all 0.4s ease-in-out;
 }
@@ -2907,6 +2908,8 @@ input[type=radio]:checked~label::before {
 
 /* Texto del footer en PC (por defecto) */
 .section-footer p {
+  
+  font-family: 'Eurostile-Medium'!important;
   font-size: 24px;
   /* Tamaño grande para pantallas de PC */
   line-height: 1.5;
@@ -7435,7 +7438,7 @@ input.main-search-input::placeholder {
 
 .counter-box.style1 .counter .counter-number {
   color: var(--white);
-
+  font-family: 'Eurostile-Bold';
   font-size: 80px;
   font-style: normal;
   font-weight: 700;
@@ -7445,7 +7448,7 @@ input.main-search-input::placeholder {
 
 .counter-box.style1 .counter .plus {
   color: var(--white);
-
+  font-family: 'Eurostile-Bold';
   font-size: 80px;
   font-style: normal;
   font-weight: 700;
@@ -8290,6 +8293,7 @@ input.main-search-input::placeholder {
 }
 
 .used-technology-section .nav .nav-item .nav-link {
+    font-family: 'Eurostile-Bold';
   font-size: 17px;
   font-weight: 500;
   color: var(--header);
@@ -8300,6 +8304,7 @@ input.main-search-input::placeholder {
 }
 
 .used-technology-section .nav .nav-item .nav-link.active {
+   font-family: 'Eurostile-Bold';
   background-color: var(--theme);
   color: var(--white);
 }
@@ -10885,7 +10890,7 @@ input.main-search-input::placeholder {
 
 .contact-form.style1 .contact-title {
   color: var(--title);
-
+  font-family: 'Eurostile-Bold';
   font-size: 50px;
   font-style: normal;
   font-weight: 700;
@@ -10895,7 +10900,7 @@ input.main-search-input::placeholder {
 
 .contact-form.style1 .desc {
   color: var(--text);
-
+  font-family: 'Eurostile-Medium';
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -10945,7 +10950,7 @@ input {
   background-color: transparent;
   font-size: 16px;
   width: 100%;
-
+font-family: 'Eurostile-Regular';
   transition: 0.4s ease-in-out;
   border-radius: 0px;
 }
@@ -11378,6 +11383,7 @@ textarea.is-invalid {
 
 
 .product-selection-title h2 {
+    font-family: 'Eurostile-Bold';
   font-size: 1.8rem;
   font-weight: bold;
   color: #333;
@@ -11402,6 +11408,7 @@ textarea.is-invalid {
 }
 
 .product-description {
+    font-family: 'Eurostile-Medium';
   font-size: 21px;
 }
 
@@ -11424,6 +11431,7 @@ textarea.is-invalid {
 }
 
 .product-title {
+    font-family: 'Eurostile-Bold';
   font-size: 1.3rem;
   font-weight: bold;
   color: #333;
@@ -11615,7 +11623,7 @@ textarea.is-invalid {
 .starter-kit-items .kit-title {
   color: var(--body-text2, rgba(38, 37, 46, 0.7));
   text-align: center;
-
+  font-family: 'Eurostile-Bold';
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
