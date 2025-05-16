@@ -492,6 +492,7 @@ input[type=radio]:checked ~ label::before {
     # Buttons style here
 ----------------------------------------------*/
 .theme-btn {
+   font-family: 'Eurostile';
   display: inline-block;
   position: relative;
   padding: 20px 36px;
@@ -5805,6 +5806,7 @@ input.main-search-input::placeholder {
   }
 }
 .hero-3 .hero-content h6 {
+  font-family: 'Eurostile';
   font-size: 20px;
   font-weight: 600;
   letter-spacing: -0.4px;
@@ -5851,6 +5853,7 @@ input.main-search-input::placeholder {
   color: var(--theme);
 }
 .hero-3 .hero-content p {
+   font-family: 'Eurostile';
   font-weight: 500;
   max-width: 760px;
   font-size: 25px;
